@@ -1,0 +1,23 @@
+
+cmake \
+  -DCMAKE_TOOLCHAIN_FILE=/home/dinusha/executorch/examples/arm/ethos-u-setup/arm-none-eabi-gcc.cmake \
+  -DTARGET_CPU=cortex-m55 \
+   -B build
+
+cmake --build build -- -j4 arm_simple_app
+
+
+/home/dinusha/executorch/examples/arm/ethos-u-scratch/FVP/models/Linux64_GCC-9.3/FVP_Corstone_SSE-300_Ethos-U55 \
+	-C cpu0.CFGITCMSZ=11  								\
+	-C ethosu.num_macs=128                              \
+	-C mps3_board.visualisation.disable-visualisation=1 \
+	-C mps3_board.telnetterminal0.start_telnet=0        \
+	-C mps3_board.uart0.out_file='-'                    \
+	-C mps3_board.uart0.shutdown_on_eot=1               \
+	-a ./build/arm_simple_app                                \
+	--timelimit 220 
+
+
+conda activate executorch
+python3 export_pte.py
+python3 pte_to_header.py -p <path to model pte>

@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/applications/hello_world
+# Build directory: /home/dinusha/simple_executorch/arm/build/target/applications/hello_world
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[hello_world]=] "/usr/bin/python3.10" "/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/targets/corstone-300/../../scripts/run_ctest.py" "-t" "corstone-300" "-a" "ethos-u55" "-m" "128" "/home/dinusha/simple_executorch/arm/build/target/applications/hello_world/hello_world.elf")
+set_tests_properties([=[hello_world]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/cmake/helpers.cmake;133;add_test;/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/cmake/helpers.cmake;143;ethosu_add_test;/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/applications/hello_world/CMakeLists.txt;19;ethosu_add_executable_test;/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/applications/hello_world/CMakeLists.txt;0;")

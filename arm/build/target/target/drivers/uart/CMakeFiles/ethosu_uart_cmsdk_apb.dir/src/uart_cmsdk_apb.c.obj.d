@@ -1,0 +1,25 @@
+target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj: \
+ /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/src/uart_cmsdk_apb.c \
+ /home/dinusha/simple_executorch/arm/build/target/target/drivers/uart/uart_config.h \
+ /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/include/uart_stdout.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdio.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/stdio.h

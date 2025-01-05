@@ -1,0 +1,3 @@
+/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles/tensorflow-gemlowp-populate.dir
+/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles/edit_cache.dir
+/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles/rebuild_cache.dir

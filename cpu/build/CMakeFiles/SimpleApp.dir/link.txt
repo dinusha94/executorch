@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SimpleApp.dir/src/main.cpp.o -o SimpleApp  /usr/local/lib/libexecutorch.a /usr/local/lib/libextension_module_static.a /usr/local/lib/libexecutorch_no_prim_ops.a /usr/local/lib/libextension_data_loader.a /usr/local/lib/libextension_tensor.a -Wl,--whole-archive /usr/local/lib/libportable_ops_lib.a -Wl,--no-whole-archive /usr/local/lib/libportable_kernels.a

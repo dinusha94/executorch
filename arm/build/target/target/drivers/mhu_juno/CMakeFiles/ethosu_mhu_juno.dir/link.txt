@@ -1,0 +1,2 @@
+/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_mhu_juno.a CMakeFiles/ethosu_mhu_juno.dir/src/mhu_juno.cpp.obj
+/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_mhu_juno.a
