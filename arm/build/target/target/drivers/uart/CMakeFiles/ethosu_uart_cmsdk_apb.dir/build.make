@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,15 +76,15 @@ target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_a
 target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj: /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/src/uart_cmsdk_apb.c
 target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj: target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/uart && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj -MF CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj.d -o CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/src/uart_cmsdk_apb.c
+	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/uart && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj -MF CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj.d -o CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/src/uart_cmsdk_apb.c
 
 target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.i"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/uart && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/src/uart_cmsdk_apb.c > CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.i
+	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/uart && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/src/uart_cmsdk_apb.c > CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.i
 
 target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.s"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/uart && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/src/uart_cmsdk_apb.c -o CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.s
+	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/uart && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/src/uart_cmsdk_apb.c -o CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.s
 
 # Object files for target ethosu_uart_cmsdk_apb
 ethosu_uart_cmsdk_apb_OBJECTS = \

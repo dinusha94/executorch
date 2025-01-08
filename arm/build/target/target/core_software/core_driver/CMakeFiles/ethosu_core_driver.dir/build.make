@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,43 +76,43 @@ target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/et
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj: /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_driver.c
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj: target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj -MF CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj.d -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_driver.c
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj -MF CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj.d -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_driver.c
 
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.i"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_driver.c > CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.i
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_driver.c > CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.i
 
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.s"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_driver.c -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.s
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_driver.c -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.s
 
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj: target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/flags.make
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj: /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_pmu.c
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj: target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj -MF CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj.d -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_pmu.c
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj -MF CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj.d -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_pmu.c
 
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.i"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_pmu.c > CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.i
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_pmu.c > CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.i
 
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.s"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_pmu.c -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.s
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_pmu.c -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.s
 
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj: target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/flags.make
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj: /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_device_u55_u65.c
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj: target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj -MF CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj.d -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_device_u55_u65.c
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj -MF CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj.d -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_device_u55_u65.c
 
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.i"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_device_u55_u65.c > CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.i
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_device_u55_u65.c > CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.i
 
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.s"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_device_u55_u65.c -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.s
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/core_driver && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/src/ethosu_device_u55_u65.c -o CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.s
 
 # Object files for target ethosu_core_driver
 ethosu_core_driver_OBJECTS = \

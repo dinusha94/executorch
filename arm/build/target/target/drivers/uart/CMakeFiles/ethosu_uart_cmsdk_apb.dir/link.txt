@@ -1,2 +1,2 @@
-/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_uart_cmsdk_apb.a CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj
-/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_uart_cmsdk_apb.a
+/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_uart_cmsdk_apb.a CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj
+/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_uart_cmsdk_apb.a

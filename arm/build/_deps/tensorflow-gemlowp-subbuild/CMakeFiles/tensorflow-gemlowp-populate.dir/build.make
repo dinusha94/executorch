@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,56 +78,56 @@ CMakeFiles/tensorflow-gemlowp-populate-complete: tensorflow-gemlowp-populate-pre
 CMakeFiles/tensorflow-gemlowp-populate-complete: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-install
 CMakeFiles/tensorflow-gemlowp-populate-complete: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-test
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'tensorflow-gemlowp-populate'"
-	/usr/local/bin/cmake -E make_directory /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles/tensorflow-gemlowp-populate-complete
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-done
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E make_directory /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles/tensorflow-gemlowp-populate-complete
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-done
 
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-build: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'tensorflow-gemlowp-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-build
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-build
 
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-configure: tensorflow-gemlowp-populate-prefix/tmp/tensorflow-gemlowp-populate-cfgcmd.txt
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-configure: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'tensorflow-gemlowp-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-configure
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-configure
 
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-download: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/download-tensorflow-gemlowp-populate.cmake
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-download: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-urlinfo.txt
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-download: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-mkdir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'tensorflow-gemlowp-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/download-tensorflow-gemlowp-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/verify-tensorflow-gemlowp-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/extract-tensorflow-gemlowp-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-download
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/download-tensorflow-gemlowp-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/verify-tensorflow-gemlowp-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/extract-tensorflow-gemlowp-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-download
 
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-install: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'tensorflow-gemlowp-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-install
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-install
 
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'tensorflow-gemlowp-populate'"
-	/usr/local/bin/cmake -Dcfgdir= -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/tmp/tensorflow-gemlowp-populate-mkdirs.cmake
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-mkdir
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -Dcfgdir= -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/tmp/tensorflow-gemlowp-populate-mkdirs.cmake
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-mkdir
 
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-patch: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-patch-info.txt
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-patch: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-update
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'tensorflow-gemlowp-populate'"
-	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-patch
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-patch
 
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-test: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'tensorflow-gemlowp-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-test
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-test
 
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-update: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-update-info.txt
 tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-update: tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-download
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'tensorflow-gemlowp-populate'"
-	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-update
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-update
 
 CMakeFiles/tensorflow-gemlowp-populate.dir/codegen:
 .PHONY : CMakeFiles/tensorflow-gemlowp-populate.dir/codegen

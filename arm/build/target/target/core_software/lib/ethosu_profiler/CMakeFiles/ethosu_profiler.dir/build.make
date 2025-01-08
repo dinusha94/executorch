@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,15 +76,15 @@ target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/s
 target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj: /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/lib/ethosu_profiler/src/ethosu_profiler.cpp
 target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj: target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/lib/ethosu_profiler && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj -MF CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj.d -o CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/lib/ethosu_profiler/src/ethosu_profiler.cpp
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/lib/ethosu_profiler && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj -MF CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj.d -o CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/lib/ethosu_profiler/src/ethosu_profiler.cpp
 
 target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.i"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/lib/ethosu_profiler && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/lib/ethosu_profiler/src/ethosu_profiler.cpp > CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.i
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/lib/ethosu_profiler && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/lib/ethosu_profiler/src/ethosu_profiler.cpp > CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.i
 
 target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.s"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/lib/ethosu_profiler && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/lib/ethosu_profiler/src/ethosu_profiler.cpp -o CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.s
+	cd /home/dinusha/simple_executorch/arm/build/target/target/core_software/lib/ethosu_profiler && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/lib/ethosu_profiler/src/ethosu_profiler.cpp -o CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.s
 
 # Object files for target ethosu_profiler
 ethosu_profiler_OBJECTS = \

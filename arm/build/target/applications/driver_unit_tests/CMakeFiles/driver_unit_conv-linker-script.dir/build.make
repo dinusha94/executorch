@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -70,7 +70,7 @@ target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv-linker-script:
 
 target/applications/driver_unit_tests/platform-driver_unit_conv.ld: /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/targets/corstone-300/platform.ld
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing and generating linker script"
-	cd /home/dinusha/simple_executorch/arm/build/target/applications/driver_unit_tests && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -E -x c -P -o /home/dinusha/simple_executorch/arm/build/target/applications/driver_unit_tests/platform-driver_unit_conv.ld /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/targets/corstone-300/platform.ld -DNDEBUG -DNDEBUG -DETHOSU_NPU_COUNT=1 -DETHOSU_NPU_TA_COUNT=2 -DETHOSU_PMU_EVENT_0=-1 -DETHOSU_PMU_EVENT_1=-1 -DETHOSU_PMU_EVENT_2=-1 -DETHOSU_PMU_EVENT_3=-1 -DETHOSU_MODEL=1 -DETHOSU_ARENA=1 -DARMCM55 -DARMCM55 -DCMSIS_VER=5 -DETHOSU_ARCH=u55 -DETHOSU55 -DETHOSU -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/targets/common/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/Device/ARM/ARMCM55/Include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/CMSIS/Core/Include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/timing_adapter/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mpu/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/include -I/home/dinusha/simple_executorch/arm/build/target/target/drivers/uart
+	cd /home/dinusha/simple_executorch/arm/build/target/applications/driver_unit_tests && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc -E -x c -P -o /home/dinusha/simple_executorch/arm/build/target/applications/driver_unit_tests/platform-driver_unit_conv.ld /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/targets/corstone-300/platform.ld -DNDEBUG -DNDEBUG -DETHOSU_NPU_COUNT=1 -DETHOSU_NPU_TA_COUNT=2 -DETHOSU_PMU_EVENT_0=-1 -DETHOSU_PMU_EVENT_1=-1 -DETHOSU_PMU_EVENT_2=-1 -DETHOSU_PMU_EVENT_3=-1 -DETHOSU_MODEL=1 -DETHOSU_ARENA=1 -DARMCM55 -DARMCM55 -DCMSIS_VER=5 -DETHOSU_ARCH=u55 -DETHOSU55 -DETHOSU -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/targets/common/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/Device/ARM/ARMCM55/Include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/CMSIS/Core/Include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/core_driver/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/timing_adapter/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mpu/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/include -I/home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/include -I/home/dinusha/simple_executorch/arm/build/target/target/drivers/uart
 
 target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv-linker-script.dir/codegen:
 .PHONY : target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv-linker-script.dir/codegen

@@ -1,2 +1,2 @@
-/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_uart_pl011.a CMakeFiles/ethosu_uart_pl011.dir/src/uart_pl011.c.obj
-/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_uart_pl011.a
+/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_uart_pl011.a CMakeFiles/ethosu_uart_pl011.dir/src/uart_pl011.c.obj
+/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_uart_pl011.a

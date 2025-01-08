@@ -1,2 +1,2 @@
-/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_mailbox.a CMakeFiles/ethosu_mailbox.dir/src/mailbox.cpp.obj
-/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_mailbox.a
+/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_mailbox.a CMakeFiles/ethosu_mailbox.dir/src/mailbox.cpp.obj
+/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_mailbox.a

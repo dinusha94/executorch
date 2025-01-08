@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,15 +76,15 @@ target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cp
 target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj: /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/src/mhu_dummy.cpp
 target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj: target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/mhu_dummy && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj -MF CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj.d -o CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/src/mhu_dummy.cpp
+	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/mhu_dummy && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj -MF CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj.d -o CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.obj -c /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/src/mhu_dummy.cpp
 
 target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.i"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/mhu_dummy && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/src/mhu_dummy.cpp > CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.i
+	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/mhu_dummy && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/src/mhu_dummy.cpp > CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.i
 
 target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.s"
-	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/mhu_dummy && /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/src/mhu_dummy.cpp -o CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.s
+	cd /home/dinusha/simple_executorch/arm/build/target/target/drivers/mhu_dummy && /opt/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/mhu_dummy/src/mhu_dummy.cpp -o CMakeFiles/ethosu_mhu_dummy.dir/src/mhu_dummy.cpp.s
 
 # Object files for target ethosu_mhu_dummy
 ethosu_mhu_dummy_OBJECTS = \

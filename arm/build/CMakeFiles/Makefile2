@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -1213,7 +1213,6 @@ arm_simple_app: CMakeFiles/arm_simple_app.dir/rule
 # codegen rule for target.
 CMakeFiles/arm_simple_app.dir/codegen: CMakeFiles/arm_simple_app-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_simple_app.dir/build.make CMakeFiles/arm_simple_app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=1 "Finished codegen for target arm_simple_app"
 .PHONY : CMakeFiles/arm_simple_app.dir/codegen
 
 # clean rule for target.
@@ -1245,7 +1244,6 @@ arm_simple_app-linker-script: CMakeFiles/arm_simple_app-linker-script.dir/rule
 # codegen rule for target.
 CMakeFiles/arm_simple_app-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_simple_app-linker-script.dir/build.make CMakeFiles/arm_simple_app-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target arm_simple_app-linker-script"
 .PHONY : CMakeFiles/arm_simple_app-linker-script.dir/codegen
 
 # clean rule for target.
@@ -1277,7 +1275,6 @@ Experimental: target/CMakeFiles/Experimental.dir/rule
 # codegen rule for target.
 target/CMakeFiles/Experimental.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/Experimental.dir/build.make target/CMakeFiles/Experimental.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target Experimental"
 .PHONY : target/CMakeFiles/Experimental.dir/codegen
 
 # clean rule for target.
@@ -1309,7 +1306,6 @@ Nightly: target/CMakeFiles/Nightly.dir/rule
 # codegen rule for target.
 target/CMakeFiles/Nightly.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/Nightly.dir/build.make target/CMakeFiles/Nightly.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target Nightly"
 .PHONY : target/CMakeFiles/Nightly.dir/codegen
 
 # clean rule for target.
@@ -1341,7 +1337,6 @@ Continuous: target/CMakeFiles/Continuous.dir/rule
 # codegen rule for target.
 target/CMakeFiles/Continuous.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/Continuous.dir/build.make target/CMakeFiles/Continuous.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target Continuous"
 .PHONY : target/CMakeFiles/Continuous.dir/codegen
 
 # clean rule for target.
@@ -1373,7 +1368,6 @@ NightlyMemoryCheck: target/CMakeFiles/NightlyMemoryCheck.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlyMemoryCheck.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlyMemoryCheck.dir/build.make target/CMakeFiles/NightlyMemoryCheck.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlyMemoryCheck"
 .PHONY : target/CMakeFiles/NightlyMemoryCheck.dir/codegen
 
 # clean rule for target.
@@ -1405,7 +1399,6 @@ NightlyStart: target/CMakeFiles/NightlyStart.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlyStart.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlyStart.dir/build.make target/CMakeFiles/NightlyStart.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlyStart"
 .PHONY : target/CMakeFiles/NightlyStart.dir/codegen
 
 # clean rule for target.
@@ -1437,7 +1430,6 @@ NightlyUpdate: target/CMakeFiles/NightlyUpdate.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlyUpdate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlyUpdate.dir/build.make target/CMakeFiles/NightlyUpdate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlyUpdate"
 .PHONY : target/CMakeFiles/NightlyUpdate.dir/codegen
 
 # clean rule for target.
@@ -1469,7 +1461,6 @@ NightlyConfigure: target/CMakeFiles/NightlyConfigure.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlyConfigure.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlyConfigure.dir/build.make target/CMakeFiles/NightlyConfigure.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlyConfigure"
 .PHONY : target/CMakeFiles/NightlyConfigure.dir/codegen
 
 # clean rule for target.
@@ -1501,7 +1492,6 @@ NightlyBuild: target/CMakeFiles/NightlyBuild.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlyBuild.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlyBuild.dir/build.make target/CMakeFiles/NightlyBuild.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlyBuild"
 .PHONY : target/CMakeFiles/NightlyBuild.dir/codegen
 
 # clean rule for target.
@@ -1533,7 +1523,6 @@ NightlyTest: target/CMakeFiles/NightlyTest.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlyTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlyTest.dir/build.make target/CMakeFiles/NightlyTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlyTest"
 .PHONY : target/CMakeFiles/NightlyTest.dir/codegen
 
 # clean rule for target.
@@ -1565,7 +1554,6 @@ NightlyCoverage: target/CMakeFiles/NightlyCoverage.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlyCoverage.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlyCoverage.dir/build.make target/CMakeFiles/NightlyCoverage.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlyCoverage"
 .PHONY : target/CMakeFiles/NightlyCoverage.dir/codegen
 
 # clean rule for target.
@@ -1597,7 +1585,6 @@ NightlyMemCheck: target/CMakeFiles/NightlyMemCheck.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlyMemCheck.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlyMemCheck.dir/build.make target/CMakeFiles/NightlyMemCheck.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlyMemCheck"
 .PHONY : target/CMakeFiles/NightlyMemCheck.dir/codegen
 
 # clean rule for target.
@@ -1629,7 +1616,6 @@ NightlySubmit: target/CMakeFiles/NightlySubmit.dir/rule
 # codegen rule for target.
 target/CMakeFiles/NightlySubmit.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/NightlySubmit.dir/build.make target/CMakeFiles/NightlySubmit.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target NightlySubmit"
 .PHONY : target/CMakeFiles/NightlySubmit.dir/codegen
 
 # clean rule for target.
@@ -1661,7 +1647,6 @@ ExperimentalStart: target/CMakeFiles/ExperimentalStart.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ExperimentalStart.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ExperimentalStart.dir/build.make target/CMakeFiles/ExperimentalStart.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ExperimentalStart"
 .PHONY : target/CMakeFiles/ExperimentalStart.dir/codegen
 
 # clean rule for target.
@@ -1693,7 +1678,6 @@ ExperimentalUpdate: target/CMakeFiles/ExperimentalUpdate.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ExperimentalUpdate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ExperimentalUpdate.dir/build.make target/CMakeFiles/ExperimentalUpdate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ExperimentalUpdate"
 .PHONY : target/CMakeFiles/ExperimentalUpdate.dir/codegen
 
 # clean rule for target.
@@ -1725,7 +1709,6 @@ ExperimentalConfigure: target/CMakeFiles/ExperimentalConfigure.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ExperimentalConfigure.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ExperimentalConfigure.dir/build.make target/CMakeFiles/ExperimentalConfigure.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ExperimentalConfigure"
 .PHONY : target/CMakeFiles/ExperimentalConfigure.dir/codegen
 
 # clean rule for target.
@@ -1757,7 +1740,6 @@ ExperimentalBuild: target/CMakeFiles/ExperimentalBuild.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ExperimentalBuild.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ExperimentalBuild.dir/build.make target/CMakeFiles/ExperimentalBuild.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ExperimentalBuild"
 .PHONY : target/CMakeFiles/ExperimentalBuild.dir/codegen
 
 # clean rule for target.
@@ -1789,7 +1771,6 @@ ExperimentalTest: target/CMakeFiles/ExperimentalTest.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ExperimentalTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ExperimentalTest.dir/build.make target/CMakeFiles/ExperimentalTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ExperimentalTest"
 .PHONY : target/CMakeFiles/ExperimentalTest.dir/codegen
 
 # clean rule for target.
@@ -1821,7 +1802,6 @@ ExperimentalCoverage: target/CMakeFiles/ExperimentalCoverage.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ExperimentalCoverage.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ExperimentalCoverage.dir/build.make target/CMakeFiles/ExperimentalCoverage.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ExperimentalCoverage"
 .PHONY : target/CMakeFiles/ExperimentalCoverage.dir/codegen
 
 # clean rule for target.
@@ -1853,7 +1833,6 @@ ExperimentalMemCheck: target/CMakeFiles/ExperimentalMemCheck.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ExperimentalMemCheck.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ExperimentalMemCheck.dir/build.make target/CMakeFiles/ExperimentalMemCheck.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ExperimentalMemCheck"
 .PHONY : target/CMakeFiles/ExperimentalMemCheck.dir/codegen
 
 # clean rule for target.
@@ -1885,7 +1864,6 @@ ExperimentalSubmit: target/CMakeFiles/ExperimentalSubmit.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ExperimentalSubmit.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ExperimentalSubmit.dir/build.make target/CMakeFiles/ExperimentalSubmit.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ExperimentalSubmit"
 .PHONY : target/CMakeFiles/ExperimentalSubmit.dir/codegen
 
 # clean rule for target.
@@ -1917,7 +1895,6 @@ ContinuousStart: target/CMakeFiles/ContinuousStart.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ContinuousStart.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ContinuousStart.dir/build.make target/CMakeFiles/ContinuousStart.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ContinuousStart"
 .PHONY : target/CMakeFiles/ContinuousStart.dir/codegen
 
 # clean rule for target.
@@ -1949,7 +1926,6 @@ ContinuousUpdate: target/CMakeFiles/ContinuousUpdate.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ContinuousUpdate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ContinuousUpdate.dir/build.make target/CMakeFiles/ContinuousUpdate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ContinuousUpdate"
 .PHONY : target/CMakeFiles/ContinuousUpdate.dir/codegen
 
 # clean rule for target.
@@ -1981,7 +1957,6 @@ ContinuousConfigure: target/CMakeFiles/ContinuousConfigure.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ContinuousConfigure.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ContinuousConfigure.dir/build.make target/CMakeFiles/ContinuousConfigure.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ContinuousConfigure"
 .PHONY : target/CMakeFiles/ContinuousConfigure.dir/codegen
 
 # clean rule for target.
@@ -2013,7 +1988,6 @@ ContinuousBuild: target/CMakeFiles/ContinuousBuild.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ContinuousBuild.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ContinuousBuild.dir/build.make target/CMakeFiles/ContinuousBuild.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ContinuousBuild"
 .PHONY : target/CMakeFiles/ContinuousBuild.dir/codegen
 
 # clean rule for target.
@@ -2045,7 +2019,6 @@ ContinuousTest: target/CMakeFiles/ContinuousTest.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ContinuousTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ContinuousTest.dir/build.make target/CMakeFiles/ContinuousTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ContinuousTest"
 .PHONY : target/CMakeFiles/ContinuousTest.dir/codegen
 
 # clean rule for target.
@@ -2077,7 +2050,6 @@ ContinuousCoverage: target/CMakeFiles/ContinuousCoverage.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ContinuousCoverage.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ContinuousCoverage.dir/build.make target/CMakeFiles/ContinuousCoverage.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ContinuousCoverage"
 .PHONY : target/CMakeFiles/ContinuousCoverage.dir/codegen
 
 # clean rule for target.
@@ -2109,7 +2081,6 @@ ContinuousMemCheck: target/CMakeFiles/ContinuousMemCheck.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ContinuousMemCheck.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ContinuousMemCheck.dir/build.make target/CMakeFiles/ContinuousMemCheck.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ContinuousMemCheck"
 .PHONY : target/CMakeFiles/ContinuousMemCheck.dir/codegen
 
 # clean rule for target.
@@ -2141,7 +2112,6 @@ ContinuousSubmit: target/CMakeFiles/ContinuousSubmit.dir/rule
 # codegen rule for target.
 target/CMakeFiles/ContinuousSubmit.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/CMakeFiles/ContinuousSubmit.dir/build.make target/CMakeFiles/ContinuousSubmit.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ContinuousSubmit"
 .PHONY : target/CMakeFiles/ContinuousSubmit.dir/codegen
 
 # clean rule for target.
@@ -2174,7 +2144,6 @@ tflu: target/target/core_software/CMakeFiles/tflu.dir/rule
 # codegen rule for target.
 target/target/core_software/CMakeFiles/tflu.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/CMakeFiles/tflu.dir/build.make target/target/core_software/CMakeFiles/tflu.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67 "Finished codegen for target tflu"
 .PHONY : target/target/core_software/CMakeFiles/tflu.dir/codegen
 
 # clean rule for target.
@@ -2206,7 +2175,6 @@ ethosu_core_driver: target/target/core_software/core_driver/CMakeFiles/ethosu_co
 # codegen rule for target.
 target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/build.make target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ethosu_core_driver"
 .PHONY : target/target/core_software/core_driver/CMakeFiles/ethosu_core_driver.dir/codegen
 
 # clean rule for target.
@@ -2238,7 +2206,6 @@ cmsis-nn: target/target/core_software/cmsis_nn/CMakeFiles/cmsis-nn.dir/rule
 # codegen rule for target.
 target/target/core_software/cmsis_nn/CMakeFiles/cmsis-nn.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/cmsis_nn/CMakeFiles/cmsis-nn.dir/build.make target/target/core_software/cmsis_nn/CMakeFiles/cmsis-nn.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Finished codegen for target cmsis-nn"
 .PHONY : target/target/core_software/cmsis_nn/CMakeFiles/cmsis-nn.dir/codegen
 
 # clean rule for target.
@@ -2270,7 +2237,6 @@ freertos_kernel: target/target/core_software/rtos/freertos_config/CMakeFiles/fre
 # codegen rule for target.
 target/target/core_software/rtos/freertos_config/CMakeFiles/freertos_kernel.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/rtos/freertos_config/CMakeFiles/freertos_kernel.dir/build.make target/target/core_software/rtos/freertos_config/CMakeFiles/freertos_kernel.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=33 "Finished codegen for target freertos_kernel"
 .PHONY : target/target/core_software/rtos/freertos_config/CMakeFiles/freertos_kernel.dir/codegen
 
 # clean rule for target.
@@ -2302,7 +2268,6 @@ threadx: target/target/core_software/rtos/threadx/CMakeFiles/threadx.dir/rule
 # codegen rule for target.
 target/target/core_software/rtos/threadx/CMakeFiles/threadx.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/rtos/threadx/CMakeFiles/threadx.dir/build.make target/target/core_software/rtos/threadx/CMakeFiles/threadx.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97 "Finished codegen for target threadx"
 .PHONY : target/target/core_software/rtos/threadx/CMakeFiles/threadx.dir/codegen
 
 # clean rule for target.
@@ -2334,7 +2299,6 @@ freertos-threadx: target/target/core_software/rtos/threadx/CMakeFiles/freertos-t
 # codegen rule for target.
 target/target/core_software/rtos/threadx/CMakeFiles/freertos-threadx.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/rtos/threadx/CMakeFiles/freertos-threadx.dir/build.make target/target/core_software/rtos/threadx/CMakeFiles/freertos-threadx.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=32 "Finished codegen for target freertos-threadx"
 .PHONY : target/target/core_software/rtos/threadx/CMakeFiles/freertos-threadx.dir/codegen
 
 # clean rule for target.
@@ -2366,7 +2330,6 @@ ethosu_profiler: target/target/core_software/lib/ethosu_profiler/CMakeFiles/etho
 # codegen rule for target.
 target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/build.make target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=29 "Finished codegen for target ethosu_profiler"
 .PHONY : target/target/core_software/lib/ethosu_profiler/CMakeFiles/ethosu_profiler.dir/codegen
 
 # clean rule for target.
@@ -2398,7 +2361,6 @@ openamp-generic: target/target/core_software/openamp/CMakeFiles/openamp-generic.
 # codegen rule for target.
 target/target/core_software/openamp/CMakeFiles/openamp-generic.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/openamp/CMakeFiles/openamp-generic.dir/build.make target/target/core_software/openamp/CMakeFiles/openamp-generic.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=41,42,43,44 "Finished codegen for target openamp-generic"
 .PHONY : target/target/core_software/openamp/CMakeFiles/openamp-generic.dir/codegen
 
 # clean rule for target.
@@ -2430,7 +2392,6 @@ openamp-freertos: target/target/core_software/openamp/CMakeFiles/openamp-freerto
 # codegen rule for target.
 target/target/core_software/openamp/CMakeFiles/openamp-freertos.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/core_software/openamp/CMakeFiles/openamp-freertos.dir/build.make target/target/core_software/openamp/CMakeFiles/openamp-freertos.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=37,38,39,40 "Finished codegen for target openamp-freertos"
 .PHONY : target/target/core_software/openamp/CMakeFiles/openamp-freertos.dir/codegen
 
 # clean rule for target.
@@ -2462,7 +2423,6 @@ ethosu_mailbox: target/target/drivers/mailbox/CMakeFiles/ethosu_mailbox.dir/rule
 # codegen rule for target.
 target/target/drivers/mailbox/CMakeFiles/ethosu_mailbox.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/drivers/mailbox/CMakeFiles/ethosu_mailbox.dir/build.make target/target/drivers/mailbox/CMakeFiles/ethosu_mailbox.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ethosu_mailbox"
 .PHONY : target/target/drivers/mailbox/CMakeFiles/ethosu_mailbox.dir/codegen
 
 # clean rule for target.
@@ -2494,7 +2454,6 @@ ethosu_mhu_v2: target/target/drivers/mhu_v2/CMakeFiles/ethosu_mhu_v2.dir/rule
 # codegen rule for target.
 target/target/drivers/mhu_v2/CMakeFiles/ethosu_mhu_v2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/drivers/mhu_v2/CMakeFiles/ethosu_mhu_v2.dir/build.make target/target/drivers/mhu_v2/CMakeFiles/ethosu_mhu_v2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ethosu_mhu_v2"
 .PHONY : target/target/drivers/mhu_v2/CMakeFiles/ethosu_mhu_v2.dir/codegen
 
 # clean rule for target.
@@ -2526,7 +2485,6 @@ ethosu_mhu_juno: target/target/drivers/mhu_juno/CMakeFiles/ethosu_mhu_juno.dir/r
 # codegen rule for target.
 target/target/drivers/mhu_juno/CMakeFiles/ethosu_mhu_juno.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/drivers/mhu_juno/CMakeFiles/ethosu_mhu_juno.dir/build.make target/target/drivers/mhu_juno/CMakeFiles/ethosu_mhu_juno.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ethosu_mhu_juno"
 .PHONY : target/target/drivers/mhu_juno/CMakeFiles/ethosu_mhu_juno.dir/codegen
 
 # clean rule for target.
@@ -2558,7 +2516,6 @@ ethosu_mhu_dummy: target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.di
 # codegen rule for target.
 target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/build.make target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=28 "Finished codegen for target ethosu_mhu_dummy"
 .PHONY : target/target/drivers/mhu_dummy/CMakeFiles/ethosu_mhu_dummy.dir/codegen
 
 # clean rule for target.
@@ -2590,7 +2547,6 @@ ethosu_uart_cmsdk_apb: target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_a
 # codegen rule for target.
 target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/build.make target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ethosu_uart_cmsdk_apb"
 .PHONY : target/target/drivers/uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/codegen
 
 # clean rule for target.
@@ -2622,7 +2578,6 @@ ethosu_uart_pl011: target/target/drivers/uart/CMakeFiles/ethosu_uart_pl011.dir/r
 # codegen rule for target.
 target/target/drivers/uart/CMakeFiles/ethosu_uart_pl011.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/drivers/uart/CMakeFiles/ethosu_uart_pl011.dir/build.make target/target/drivers/uart/CMakeFiles/ethosu_uart_pl011.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=30 "Finished codegen for target ethosu_uart_pl011"
 .PHONY : target/target/drivers/uart/CMakeFiles/ethosu_uart_pl011.dir/codegen
 
 # clean rule for target.
@@ -2654,7 +2609,6 @@ ethosu_uart_dummy: target/target/drivers/uart/CMakeFiles/ethosu_uart_dummy.dir/r
 # codegen rule for target.
 target/target/drivers/uart/CMakeFiles/ethosu_uart_dummy.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/drivers/uart/CMakeFiles/ethosu_uart_dummy.dir/build.make target/target/drivers/uart/CMakeFiles/ethosu_uart_dummy.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target ethosu_uart_dummy"
 .PHONY : target/target/drivers/uart/CMakeFiles/ethosu_uart_dummy.dir/codegen
 
 # clean rule for target.
@@ -2686,7 +2640,6 @@ timing_adapter: target/target/drivers/timing_adapter/CMakeFiles/timing_adapter.d
 # codegen rule for target.
 target/target/drivers/timing_adapter/CMakeFiles/timing_adapter.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/target/drivers/timing_adapter/CMakeFiles/timing_adapter.dir/build.make target/target/drivers/timing_adapter/CMakeFiles/timing_adapter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=100 "Finished codegen for target timing_adapter"
 .PHONY : target/target/drivers/timing_adapter/CMakeFiles/timing_adapter.dir/codegen
 
 # clean rule for target.
@@ -2725,7 +2678,6 @@ baremetal_keyword_spotting_cnn_small_int8: target/applications/baremetal/CMakeFi
 # codegen rule for target.
 target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8.dir/codegen: target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8.dir/build.make target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=2,3 "Finished codegen for target baremetal_keyword_spotting_cnn_small_int8"
 .PHONY : target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8.dir/codegen
 
 # clean rule for target.
@@ -2757,7 +2709,6 @@ baremetal_keyword_spotting_cnn_small_int8-linker-script: target/applications/bar
 # codegen rule for target.
 target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8-linker-script.dir/build.make target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target baremetal_keyword_spotting_cnn_small_int8-linker-script"
 .PHONY : target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_cnn_small_int8-linker-script.dir/codegen
 
 # clean rule for target.
@@ -2796,7 +2747,6 @@ baremetal_keyword_spotting_dnn_medium_int8: target/applications/baremetal/CMakeF
 # codegen rule for target.
 target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8.dir/codegen: target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8.dir/build.make target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=4,5 "Finished codegen for target baremetal_keyword_spotting_dnn_medium_int8"
 .PHONY : target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8.dir/codegen
 
 # clean rule for target.
@@ -2828,7 +2778,6 @@ baremetal_keyword_spotting_dnn_medium_int8-linker-script: target/applications/ba
 # codegen rule for target.
 target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8-linker-script.dir/build.make target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target baremetal_keyword_spotting_dnn_medium_int8-linker-script"
 .PHONY : target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_dnn_medium_int8-linker-script.dir/codegen
 
 # clean rule for target.
@@ -2867,7 +2816,6 @@ baremetal_keyword_spotting_ds_cnn_large_clustered_int8: target/applications/bare
 # codegen rule for target.
 target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8.dir/codegen: target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8.dir/build.make target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=6,7 "Finished codegen for target baremetal_keyword_spotting_ds_cnn_large_clustered_int8"
 .PHONY : target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8.dir/codegen
 
 # clean rule for target.
@@ -2899,7 +2847,6 @@ baremetal_keyword_spotting_ds_cnn_large_clustered_int8-linker-script: target/app
 # codegen rule for target.
 target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8-linker-script.dir/build.make target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target baremetal_keyword_spotting_ds_cnn_large_clustered_int8-linker-script"
 .PHONY : target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_cnn_large_clustered_int8-linker-script.dir/codegen
 
 # clean rule for target.
@@ -2938,7 +2885,6 @@ baremetal_keyword_spotting_ds_dnn_large_clustered_int8: target/applications/bare
 # codegen rule for target.
 target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8.dir/codegen: target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8.dir/build.make target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=8,9 "Finished codegen for target baremetal_keyword_spotting_ds_dnn_large_clustered_int8"
 .PHONY : target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8.dir/codegen
 
 # clean rule for target.
@@ -2970,7 +2916,6 @@ baremetal_keyword_spotting_ds_dnn_large_clustered_int8-linker-script: target/app
 # codegen rule for target.
 target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8-linker-script.dir/build.make target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target baremetal_keyword_spotting_ds_dnn_large_clustered_int8-linker-script"
 .PHONY : target/applications/baremetal/CMakeFiles/baremetal_keyword_spotting_ds_dnn_large_clustered_int8-linker-script.dir/codegen
 
 # clean rule for target.
@@ -3007,7 +2952,6 @@ driver_unit_irq: target/applications/driver_unit_tests/CMakeFiles/driver_unit_ir
 # codegen rule for target.
 target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq.dir/codegen: target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq.dir/build.make target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=26 "Finished codegen for target driver_unit_irq"
 .PHONY : target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq.dir/codegen
 
 # clean rule for target.
@@ -3039,7 +2983,6 @@ driver_unit_irq-linker-script: target/applications/driver_unit_tests/CMakeFiles/
 # codegen rule for target.
 target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq-linker-script.dir/build.make target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=27 "Finished codegen for target driver_unit_irq-linker-script"
 .PHONY : target/applications/driver_unit_tests/CMakeFiles/driver_unit_irq-linker-script.dir/codegen
 
 # clean rule for target.
@@ -3076,7 +3019,6 @@ driver_unit_conv: target/applications/driver_unit_tests/CMakeFiles/driver_unit_c
 # codegen rule for target.
 target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv.dir/codegen: target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv.dir/build.make target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=25 "Finished codegen for target driver_unit_conv"
 .PHONY : target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv.dir/codegen
 
 # clean rule for target.
@@ -3108,7 +3050,6 @@ driver_unit_conv-linker-script: target/applications/driver_unit_tests/CMakeFiles
 # codegen rule for target.
 target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv-linker-script.dir/build.make target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target driver_unit_conv-linker-script"
 .PHONY : target/applications/driver_unit_tests/CMakeFiles/driver_unit_conv-linker-script.dir/codegen
 
 # clean rule for target.
@@ -3148,7 +3089,6 @@ freertos: target/applications/freertos/CMakeFiles/freertos.dir/rule
 # codegen rule for target.
 target/applications/freertos/CMakeFiles/freertos.dir/codegen: target/applications/freertos/CMakeFiles/freertos-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/freertos/CMakeFiles/freertos.dir/build.make target/applications/freertos/CMakeFiles/freertos.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=31 "Finished codegen for target freertos"
 .PHONY : target/applications/freertos/CMakeFiles/freertos.dir/codegen
 
 # clean rule for target.
@@ -3180,7 +3120,6 @@ freertos-linker-script: target/applications/freertos/CMakeFiles/freertos-linker-
 # codegen rule for target.
 target/applications/freertos/CMakeFiles/freertos-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/freertos/CMakeFiles/freertos-linker-script.dir/build.make target/applications/freertos/CMakeFiles/freertos-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target freertos-linker-script"
 .PHONY : target/applications/freertos/CMakeFiles/freertos-linker-script.dir/codegen
 
 # clean rule for target.
@@ -3217,7 +3156,6 @@ hello_world: target/applications/hello_world/CMakeFiles/hello_world.dir/rule
 # codegen rule for target.
 target/applications/hello_world/CMakeFiles/hello_world.dir/codegen: target/applications/hello_world/CMakeFiles/hello_world-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/hello_world/CMakeFiles/hello_world.dir/build.make target/applications/hello_world/CMakeFiles/hello_world.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=34 "Finished codegen for target hello_world"
 .PHONY : target/applications/hello_world/CMakeFiles/hello_world.dir/codegen
 
 # clean rule for target.
@@ -3249,7 +3187,6 @@ hello_world-linker-script: target/applications/hello_world/CMakeFiles/hello_worl
 # codegen rule for target.
 target/applications/hello_world/CMakeFiles/hello_world-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/hello_world/CMakeFiles/hello_world-linker-script.dir/build.make target/applications/hello_world/CMakeFiles/hello_world-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target hello_world-linker-script"
 .PHONY : target/applications/hello_world/CMakeFiles/hello_world-linker-script.dir/codegen
 
 # clean rule for target.
@@ -3289,7 +3226,6 @@ threadx_demo: target/applications/threadx_demo/CMakeFiles/threadx_demo.dir/rule
 # codegen rule for target.
 target/applications/threadx_demo/CMakeFiles/threadx_demo.dir/codegen: target/applications/threadx_demo/CMakeFiles/threadx_demo-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/threadx_demo/CMakeFiles/threadx_demo.dir/build.make target/applications/threadx_demo/CMakeFiles/threadx_demo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=98,99 "Finished codegen for target threadx_demo"
 .PHONY : target/applications/threadx_demo/CMakeFiles/threadx_demo.dir/codegen
 
 # clean rule for target.
@@ -3321,7 +3257,6 @@ threadx_demo-linker-script: target/applications/threadx_demo/CMakeFiles/threadx_
 # codegen rule for target.
 target/applications/threadx_demo/CMakeFiles/threadx_demo-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/threadx_demo/CMakeFiles/threadx_demo-linker-script.dir/build.make target/applications/threadx_demo/CMakeFiles/threadx_demo-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target threadx_demo-linker-script"
 .PHONY : target/applications/threadx_demo/CMakeFiles/threadx_demo-linker-script.dir/codegen
 
 # clean rule for target.
@@ -3362,7 +3297,6 @@ message_handler_openamp: target/applications/message_handler_openamp/CMakeFiles/
 # codegen rule for target.
 target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp.dir/codegen: target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp-linker-script.dir/all
 	$(MAKE) $(MAKESILENT) -f target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp.dir/build.make target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num=35,36 "Finished codegen for target message_handler_openamp"
 .PHONY : target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp.dir/codegen
 
 # clean rule for target.
@@ -3394,7 +3328,6 @@ message_handler_openamp-linker-script: target/applications/message_handler_opena
 # codegen rule for target.
 target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp-linker-script.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp-linker-script.dir/build.make target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp-linker-script.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dinusha/simple_executorch/arm/build/CMakeFiles --progress-num= "Finished codegen for target message_handler_openamp-linker-script"
 .PHONY : target/applications/message_handler_openamp/CMakeFiles/message_handler_openamp-linker-script.dir/codegen
 
 # clean rule for target.

@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include target/CMakeFiles/NightlyCoverage.dir/compiler_depend.make
 include target/CMakeFiles/NightlyCoverage.dir/progress.make
 
 target/CMakeFiles/NightlyCoverage:
-	cd /home/dinusha/simple_executorch/arm/build/target && /usr/local/bin/ctest -D NightlyCoverage
+	cd /home/dinusha/simple_executorch/arm/build/target && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/ctest -D NightlyCoverage
 
 target/CMakeFiles/NightlyCoverage.dir/codegen:
 .PHONY : target/CMakeFiles/NightlyCoverage.dir/codegen

@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,56 +78,56 @@ CMakeFiles/tensorflow-ruy-populate-complete: tensorflow-ruy-populate-prefix/src/
 CMakeFiles/tensorflow-ruy-populate-complete: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-install
 CMakeFiles/tensorflow-ruy-populate-complete: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-test
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'tensorflow-ruy-populate'"
-	/usr/local/bin/cmake -E make_directory /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles/tensorflow-ruy-populate-complete
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-done
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E make_directory /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles/tensorflow-ruy-populate-complete
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-done
 
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-build: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'tensorflow-ruy-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-build
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-build
 
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-configure: tensorflow-ruy-populate-prefix/tmp/tensorflow-ruy-populate-cfgcmd.txt
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-configure: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'tensorflow-ruy-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-configure
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-configure
 
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-download: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/download-tensorflow-ruy-populate.cmake
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-download: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-urlinfo.txt
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-download: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-mkdir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'tensorflow-ruy-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/download-tensorflow-ruy-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/verify-tensorflow-ruy-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/extract-tensorflow-ruy-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-download
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/download-tensorflow-ruy-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/verify-tensorflow-ruy-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/extract-tensorflow-ruy-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-download
 
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-install: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'tensorflow-ruy-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-install
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-install
 
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'tensorflow-ruy-populate'"
-	/usr/local/bin/cmake -Dcfgdir= -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/tmp/tensorflow-ruy-populate-mkdirs.cmake
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-mkdir
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -Dcfgdir= -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/tmp/tensorflow-ruy-populate-mkdirs.cmake
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-mkdir
 
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-patch: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-patch-info.txt
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-patch: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-update
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'tensorflow-ruy-populate'"
-	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-patch
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-patch
 
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-test: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'tensorflow-ruy-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-test
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-test
 
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-update: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-update-info.txt
 tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-update: tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-download
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'tensorflow-ruy-populate'"
-	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-update
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-update
 
 CMakeFiles/tensorflow-ruy-populate.dir/codegen:
 .PHONY : CMakeFiles/tensorflow-ruy-populate.dir/codegen

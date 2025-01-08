@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,56 +78,56 @@ CMakeFiles/tensorflow-flatbuffers-populate-complete: tensorflow-flatbuffers-popu
 CMakeFiles/tensorflow-flatbuffers-populate-complete: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-install
 CMakeFiles/tensorflow-flatbuffers-populate-complete: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-test
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'tensorflow-flatbuffers-populate'"
-	/usr/local/bin/cmake -E make_directory /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles/tensorflow-flatbuffers-populate-complete
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-done
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E make_directory /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles/tensorflow-flatbuffers-populate-complete
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-done
 
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-build: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'tensorflow-flatbuffers-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-build
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-build
 
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-configure: tensorflow-flatbuffers-populate-prefix/tmp/tensorflow-flatbuffers-populate-cfgcmd.txt
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-configure: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'tensorflow-flatbuffers-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-configure
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-configure
 
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-download: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/download-tensorflow-flatbuffers-populate.cmake
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-download: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-urlinfo.txt
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-download: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-mkdir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'tensorflow-flatbuffers-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/download-tensorflow-flatbuffers-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/verify-tensorflow-flatbuffers-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/extract-tensorflow-flatbuffers-populate.cmake
-	cd /home/dinusha/simple_executorch/arm/build/_deps && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-download
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/download-tensorflow-flatbuffers-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/verify-tensorflow-flatbuffers-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/extract-tensorflow-flatbuffers-populate.cmake
+	cd /home/dinusha/simple_executorch/arm/build/_deps && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-download
 
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-install: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'tensorflow-flatbuffers-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-install
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-install
 
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'tensorflow-flatbuffers-populate'"
-	/usr/local/bin/cmake -Dcfgdir= -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/tmp/tensorflow-flatbuffers-populate-mkdirs.cmake
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-mkdir
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -Dcfgdir= -P /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/tmp/tensorflow-flatbuffers-populate-mkdirs.cmake
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-mkdir
 
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-patch: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-patch-info.txt
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-patch: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-update
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'tensorflow-flatbuffers-populate'"
-	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-patch
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-patch
 
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-test: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'tensorflow-flatbuffers-populate'"
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /usr/local/bin/cmake -E echo_append
-	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-test
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-build && /home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-test
 
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-update: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-update-info.txt
 tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-update: tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-download
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'tensorflow-flatbuffers-populate'"
-	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-update
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	/home/dinusha/miniconda3/envs/executorch/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /home/dinusha/simple_executorch/arm/build/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-update
 
 CMakeFiles/tensorflow-flatbuffers-populate.dir/codegen:
 .PHONY : CMakeFiles/tensorflow-flatbuffers-populate.dir/codegen

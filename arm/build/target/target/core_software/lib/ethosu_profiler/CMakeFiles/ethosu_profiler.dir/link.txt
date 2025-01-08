@@ -1,2 +1,2 @@
-/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_profiler.a CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj
-/usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_profiler.a
+/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_profiler.a CMakeFiles/ethosu_profiler.dir/src/ethosu_profiler.cpp.obj
+/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_profiler.a

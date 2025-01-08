@@ -2,13 +2,13 @@ CMakeFiles/arm_simple_app.dir/home/dinusha/executorch/examples/arm/ethos-u-scrat
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/targets/corstone-300/retarget.c \
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/Device/ARM/ARMCM55/Include/ARMCM55.h \
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/CMSIS/Core/Include/core_cm55.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdint.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/CMSIS/Core/Include/cmsis_version.h \
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/CMSIS/Core/Include/cmsis_compiler.h \
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/CMSIS/Core/Include/cmsis_gcc.h \
@@ -16,39 +16,39 @@ CMakeFiles/arm_simple_app.dir/home/dinusha/executorch/examples/arm/ethos-u-scrat
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/CMSIS/Core/Include/pmu_armv8.h \
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/CMSIS/Core/Include/cachel1_armv7.h \
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_software/cmsis/Device/ARM/ARMCM55/Include/system_ARMCM55.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdio.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/newlib.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdlib.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/alloca.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/string.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/strings.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/string.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/stat.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/time.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/time.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/types.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/endian.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_endian.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/select.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_sigset.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_timeval.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/timespec.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_timespec.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/sched.h \
- /usr/local/bin/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/types.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdlib.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/alloca.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/string.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/strings.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/string.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stat.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/time.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/time.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/types.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/endian.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_endian.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/select.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_sigset.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_timeval.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/timespec.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_timespec.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/sched.h \
+ /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/types.h \
  /home/dinusha/executorch/examples/arm/ethos-u-scratch/ethos-u/core_platform/drivers/uart/include/uart_stdout.h
