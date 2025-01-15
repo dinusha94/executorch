@@ -7,11 +7,28 @@ cmake \
 cmake --build build -- -j4 arm_simple_app
 
        
-/home/dinusha/executorch/examples/arm/ethos-u-scratch/FVP/models/Linux64_GCC-9.3/FVP_Corstone_SSE-300_Ethos-U55 -C cpu0.CFGITCMSZ=11  -C ethosu.num_macs=128 -C mps3_board.visualisation.disable-visualisation=1 -C mps3_board.telnetterminal0.start_telnet=0 -C mps3_board.uart0.out_file='-'  -C mps3_board.uart0.shutdown_on_eot=1 -a ./build/arm_simple_app  --timelimit 220 
+/home/dinusha/executorch/examples/arm/ethos-u-scratch/FVP-corstone300/models/Linux64_GCC-9.3/FVP_Corstone_SSE-300_Ethos-U55 \
+  -C cpu0.CFGITCMSZ=11  \
+  -C ethosu.num_macs=128 \
+  -C mps3_board.visualisation.disable-visualisation=1 \
+  -C mps3_board.telnetterminal0.start_telnet=0 \
+  -C mps3_board.uart0.out_file='-' \
+  -C mps3_board.uart0.shutdown_on_eot=1 \
+  -a ./build/arm_simple_app  \
+  --timelimit 220 
 
+-m mv2_arm_delegate.pte -i input.bin -o output_basename 
+
+export MODEL_FILE="mv2_arm_delegate.pte"
+export INPUT_FILE="input.bin"
 
 150,528
 
 conda activate executorch
 python3 export_pte.py
 python3 pte_to_header.py -p <path to model pte>
+
+python3 gen_rgb_cpp.py --image_path /home/dinusha/ml-embedded-evaluation-kit/resources/img_class/samples/cat.bmp --package_gen_dir ./output --image_size 224 224 --license_template ./header_template.txt
+
+
+python3 -m examples.arm.aot_arm_compiler --model_name=custome_mv2 --target=ethos-u55-128 --delegate --quantize  --output /home/dinusha/executorch/examples/arm --so_library=cmake-out-aot-lib/kernels/quantized/libquantized_ops_aot_lib.so --system_config=Ethos_U55_High_End_Embedded --memory_mode=Shared_Sram --evaluate mv2 --evaluate_config /home/dinusha/executorch/examples/arm/mv2-config.json --intermediates /home/dinusha/executorch/examples/arm
