@@ -34,6 +34,7 @@ RUN git clone https://github.com/pytorch/executorch.git \
     && git submodule sync \
     && git submodule update --init
 
+
 # Copy and execute the installation script for dependencies
 WORKDIR /workspace/executorch
 RUN chmod +x ./install_requirements.sh \
