@@ -1,2 +1,0 @@
-/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_mailbox.a CMakeFiles/ethosu_mailbox.dir/src/mailbox.cpp.obj
-/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_mailbox.a

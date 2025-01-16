@@ -1,2 +1,0 @@
-/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libtiming_adapter.a CMakeFiles/timing_adapter.dir/src/timing_adapter.c.obj
-/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libtiming_adapter.a

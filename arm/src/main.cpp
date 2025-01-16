@@ -33,7 +33,6 @@
 #include "model_pte.h"
 #include "image_data.h"
 
-#include "sample_files.h"
 #include <stdio.h>
 #include <stdint.h>
 #include <limits>
@@ -311,28 +310,19 @@ int main(int argc, const char* argv[]) {
   executorch::runtime::runtime_init();
   std::vector<std::pair<char*, size_t>> input_buffers;
 
-//   if (input_buffers.empty()) {
-//     // Provide input_data__ as a buffer
-//     float input_data__[8] = {
-//         // -1.5028f, 0.5095f, -0.4823f, 1.1381f, -0.3298f, -1.0387f, -1.1755f, -0.1189f
-//         //  1.4306f,  1.7971f, -0.9890f,  1.0128f,  0.2638f,  1.2950f,  0.6042f,  1.1447f
-//         -0.2374f,  1.0543f,  0.1690f,  0.1050f,  0.1745f, -0.2608f, -0.1373f, -1.3825f
-//     };
 
-//     // Add the buffer and its size to the input_buffers
-//     input_buffers.push_back(std::make_pair(reinterpret_cast<char*>(input_data__), sizeof(input_data__)));
-// }
+  if (input_buffers.empty()) {
 
-if (input_buffers.empty()) {
+    uint32_t total_bytes = sizeof(image_data);  // Total bytes
 
- uint32_t total_bytes = sizeof(image_data);  // Total bytes = number of elements * size of each element (float is 4 bytes)
+      // Add the image buffer and its size to the input_buffers
+      input_buffers.push_back(
+          // std::make_pair(reinterpret_cast<char*>(image_data), total_bytes)
+          std::make_pair(const_cast<char*>(reinterpret_cast<const char*>(image_data)), total_bytes)
 
-    // Add the image buffer and its size to the input_buffers
-    input_buffers.push_back(
-        std::make_pair(reinterpret_cast<char*>(image_data), total_bytes)
-    );
+      );
 
-}
+  }
 
 
   size_t pte_size = sizeof(model_pte);

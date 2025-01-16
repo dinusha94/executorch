@@ -1,2 +1,0 @@
-/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libethosu_mhu_v2.a CMakeFiles/ethosu_mhu_v2.dir/src/mhu_v2.cpp.obj
-/opt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libethosu_mhu_v2.a

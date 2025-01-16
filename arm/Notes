@@ -1,4 +1,7 @@
 
+
+source /home/dinusha/executorch/examples/arm/ethos-u-scratch/setup_path.sh
+
 cmake \
   -DCMAKE_TOOLCHAIN_FILE=/home/dinusha/executorch/examples/arm/ethos-u-setup/arm-none-eabi-gcc.cmake \
   -DTARGET_CPU=cortex-m55 \
@@ -25,10 +28,10 @@ export INPUT_FILE="input.bin"
 150,528
 
 conda activate executorch
-python3 export_pte.py
+
+python3 aot_arm_compiler.py --model_name=custome_mv2 --target=ethos-u55-128 --delegate \
+--quantize --reorder_inputs= --output /home/dinusha/executorch/examples/arm --so_library=cmake-out-aot-lib/kernels/quantized/libquantized_ops_aot_lib.so \
+--system_config=Ethos_U55_High_End_Embedded --memory_mode=Shared_Sram
+
+
 python3 pte_to_header.py -p <path to model pte>
-
-python3 gen_rgb_cpp.py --image_path /home/dinusha/ml-embedded-evaluation-kit/resources/img_class/samples/cat.bmp --package_gen_dir ./output --image_size 224 224 --license_template ./header_template.txt
-
-
-python3 -m examples.arm.aot_arm_compiler --model_name=custome_mv2 --target=ethos-u55-128 --delegate --quantize  --output /home/dinusha/executorch/examples/arm --so_library=cmake-out-aot-lib/kernels/quantized/libquantized_ops_aot_lib.so --system_config=Ethos_U55_High_End_Embedded --memory_mode=Shared_Sram --evaluate mv2 --evaluate_config /home/dinusha/executorch/examples/arm/mv2-config.json --intermediates /home/dinusha/executorch/examples/arm

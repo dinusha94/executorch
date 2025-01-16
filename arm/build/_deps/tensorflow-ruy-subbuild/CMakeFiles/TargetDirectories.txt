@@ -1,3 +1,0 @@
-/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles/tensorflow-ruy-populate.dir
-/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles/edit_cache.dir
-/home/dinusha/simple_executorch/arm/build/_deps/tensorflow-ruy-subbuild/CMakeFiles/rebuild_cache.dir

@@ -649,9 +649,27 @@ TORCH_API inline torch::executor::Tensor & masked_fill_outf(torch::executor::Ker
 }
 
 
+// aten::masked_scatter.out(Tensor self, Tensor mask, Tensor source, *, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & masked_scatter_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, const torch::executor::Tensor & mask, const torch::executor::Tensor & source, torch::executor::Tensor & out) {
+    return ::torch::executor::native::masked_scatter_out(context, self, mask, source, out);
+}
+
+
+// aten::masked_select.out(Tensor self, Tensor mask, *, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & masked_select_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, const torch::executor::Tensor & mask, torch::executor::Tensor & out) {
+    return ::torch::executor::native::masked_select_out(context, self, mask, out);
+}
+
+
 // aten::max.dim_max(Tensor self, int dim, bool keepdim=False, *, Tensor(a!) max, Tensor(b!) max_values) -> (Tensor(a!) values, Tensor(b!) indices)
 TORCH_API inline ::std::tuple<torch::executor::Tensor &,torch::executor::Tensor &> max_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, int64_t dim, bool keepdim, torch::executor::Tensor & max, torch::executor::Tensor & max_values) {
     return ::torch::executor::native::max_out(context, self, dim, keepdim, max, max_values);
+}
+
+
+// aten::max.unary_out(Tensor self, *, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & max_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, torch::executor::Tensor & out) {
+    return ::torch::executor::native::max_unary_out(context, self, out);
 }
 
 
@@ -673,9 +691,21 @@ TORCH_API inline torch::executor::Tensor & mean_outf(torch::executor::KernelRunt
 }
 
 
+// aten::mean.dtype_out(Tensor self, *, ScalarType? dtype=None, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & mean_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, torch::executor::optional<torch::executor::ScalarType> dtype, torch::executor::Tensor & out) {
+    return ::torch::executor::native::mean_dtype_out(context, self, dtype, out);
+}
+
+
 // aten::min.dim_min(Tensor self, int dim, bool keepdim=False, *, Tensor(a!) min, Tensor(b!) min_indices) -> (Tensor(a!) values, Tensor(b!) indices)
 TORCH_API inline ::std::tuple<torch::executor::Tensor &,torch::executor::Tensor &> min_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, int64_t dim, bool keepdim, torch::executor::Tensor & min, torch::executor::Tensor & min_indices) {
     return ::torch::executor::native::min_out(context, self, dim, keepdim, min, min_indices);
+}
+
+
+// aten::min.unary_out(Tensor self, *, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & min_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, torch::executor::Tensor & out) {
+    return ::torch::executor::native::min_unary_out(context, self, out);
 }
 
 
@@ -826,6 +856,12 @@ TORCH_API inline torch::executor::Tensor & remainder_outf(torch::executor::Kerne
 // aten::repeat.out(Tensor self, SymInt[] repeats, *, Tensor(a!) out) -> Tensor(a!)
 TORCH_API inline torch::executor::Tensor & repeat_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, torch::executor::ArrayRef<int64_t> repeats, torch::executor::Tensor & out) {
     return ::torch::executor::native::repeat_out(context, self, repeats, out);
+}
+
+
+// aten::repeat_interleave.Tensor_out(Tensor repeats, *, SymInt? output_size=None, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & repeat_interleave_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & repeats, torch::executor::optional<int64_t> output_size, torch::executor::Tensor & out) {
+    return ::torch::executor::native::repeat_interleave_Tensor_out(context, repeats, output_size, out);
 }
 
 
@@ -1069,6 +1105,18 @@ TORCH_API inline torch::executor::Tensor & unsqueeze_copy_outf(torch::executor::
 }
 
 
+// aten::upsample_bilinear2d.vec_out(Tensor input, SymInt[]? output_size, bool align_corners, float[]? scale_factors, *, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & upsample_bilinear2d_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & input, torch::executor::optional<torch::executor::ArrayRef<int64_t>> output_size, bool align_corners, torch::executor::optional<torch::executor::ArrayRef<double>> scale_factors, torch::executor::Tensor & out) {
+    return ::torch::executor::native::upsample_bilinear2d_vec_out(context, input, output_size, align_corners, scale_factors, out);
+}
+
+
+// aten::upsample_nearest2d.vec_out(Tensor input, SymInt[]? output_size, float[]? scale_factors, *, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & upsample_nearest2d_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & input, torch::executor::optional<torch::executor::ArrayRef<int64_t>> output_size, torch::executor::optional<torch::executor::ArrayRef<double>> scale_factors, torch::executor::Tensor & out) {
+    return ::torch::executor::native::upsample_nearest2d_vec_out(context, input, output_size, scale_factors, out);
+}
+
+
 // aten::var.correction_out(Tensor self, int[1]? dim=None, *, Scalar? correction=None, bool keepdim=False, Tensor(a!) out) -> Tensor(a!)
 TORCH_API inline torch::executor::Tensor & var_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, torch::executor::optional<torch::executor::ArrayRef<int64_t>> dim, const torch::executor::optional<torch::executor::Scalar> & correction, bool keepdim, torch::executor::Tensor & out) {
     return ::torch::executor::native::var_correction_out(context, self, dim, correction, keepdim, out);
@@ -1101,6 +1149,12 @@ TORCH_API inline torch::executor::Tensor & zeros_outf(torch::executor::KernelRun
 } // namespace aten
         
 namespace dim_order_ops {
+
+// dim_order_ops::_empty_dim_order.out(int[] size, *, int[]? dim_order=None, Tensor(a!) out) -> Tensor(a!)
+TORCH_API inline torch::executor::Tensor & _empty_dim_order_outf(torch::executor::KernelRuntimeContext & context, torch::executor::ArrayRef<int64_t> size, torch::executor::optional<torch::executor::ArrayRef<int64_t>> dim_order, torch::executor::Tensor & out) {
+    return ::torch::executor::native::_empty_dim_order_out(context, size, dim_order, out);
+}
+
 
 // dim_order_ops::_to_dim_order_copy.out(Tensor self, *, bool non_blocking=False, int[]? dim_order=None, Tensor(a!) out) -> Tensor(a!)
 TORCH_API inline torch::executor::Tensor & _to_dim_order_copy_outf(torch::executor::KernelRuntimeContext & context, const torch::executor::Tensor & self, bool non_blocking, torch::executor::optional<torch::executor::ArrayRef<int64_t>> dim_order, torch::executor::Tensor & out) {

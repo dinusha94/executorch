@@ -122,8 +122,6 @@ add_executable(arm_simple_app)
 target_sources(
   arm_simple_app PRIVATE 
   src/main.cpp
-  src/dog.c
-  src/sample_files.c
 )
 
 # Include the target's bare-metal linker script
